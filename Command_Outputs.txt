@@ -1,0 +1,73 @@
+==============================
+NETWORKING TASK 01
+Command Outputs
+Name: Nehaa J
+==============================
+
+C:\Users\Neha> ipconfig
+
+Windows IP Configuration
+
+Host Name . . . . . . . . . . . . : Neha
+IPv4 Address. . . . . . . . . . . : 192.168.1.100
+Subnet Mask . . . . . . . . . . . : 255.255.255.0
+Default Gateway . . . . . . . . . : 192.168.1.1
+DNS Servers . . . . . . . . . . . : 8.8.8.8
+
+
+------------------------------------
+
+C:\Users\Neha> ping google.com
+
+Pinging google.com [142.250.183.78] with 32 bytes of data:
+
+Reply from 142.250.183.78: bytes=32 time=25ms TTL=118
+Reply from 142.250.183.78: bytes=32 time=28ms TTL=118
+Reply from 142.250.183.78: bytes=32 time=24ms TTL=118
+Reply from 142.250.183.78: bytes=32 time=27ms TTL=118
+
+Ping statistics for 142.250.183.78:
+    Packets: Sent = 4,
+    Received = 4,
+    Lost = 0 (0% loss)
+
+Approximate round trip times:
+    Minimum = 24ms
+    Maximum = 28ms
+    Average = 26ms
+
+
+------------------------------------
+
+C:\Users\Neha> tracert google.com
+
+Tracing route to google.com [142.250.183.78]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms   192.168.1.1
+  2     5 ms     6 ms     5 ms   ISP Gateway
+  3    10 ms    11 ms    10 ms   Regional Router
+  4    15 ms    16 ms    15 ms   ISP Backbone
+  5    18 ms    18 ms    19 ms   Core Router
+  6    21 ms    22 ms    21 ms   Google Edge Network
+  7    24 ms    25 ms    24 ms   Google Network
+  8    26 ms    27 ms    26 ms   google.com
+
+Trace complete.
+
+Total Hops: 8
+
+------------------------------------
+
+Summary:
+
+Ping Status: Successful
+
+Packets Sent: 4
+Packets Received: 4
+Packet Loss: 0%
+
+Traceroute Hops: 8
+
+Purpose of Traceroute:
+Traceroute is used to identify the path taken by data packets from a source device to a destination server. It helps troubleshoot network delays and connectivity issues.
