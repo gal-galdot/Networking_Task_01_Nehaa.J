@@ -143,7 +143,7 @@ Cybersecurity_Task_01_Nehaa_J
 
 ✅ Wireshark capture of TCP traffic
 
-    <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e6fb9b31-bf62-40ee-97b3-101de0d76d78" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e6fb9b31-bf62-40ee-97b3-101de0d76d78" />
     
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/91ba32fe-22b6-4013-9cd2-9e362de7d034" />
 
