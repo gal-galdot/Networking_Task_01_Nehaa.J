@@ -1,6 +1,7 @@
 # Cybersecurity Internship Task 1 Report
 
 **Date:** July 2, 2025
+
 **Intern:** Nehaa J
 
 ---
